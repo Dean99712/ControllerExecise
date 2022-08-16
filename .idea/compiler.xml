@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="SpringBootCollegeApp" />
+        <module name="CollegeAppSpring (2)" />
+        <module name="CollegeAppSpring (1)" />
+        <module name="CollegeAppSpring" />
+        <module name="Class6-ControllerExecise" />
+        <module name="ControllerExecise" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Class6-ControllerExecise" options="-parameters" />
+      <module name="CollegeAppSpring" options="-parameters" />
+      <module name="CollegeAppSpring (1)" options="-parameters" />
+      <module name="CollegeAppSpring (2)" options="-parameters" />
+      <module name="ControllerExecise" options="-parameters" />
+      <module name="SpringBootCollegeApp" options="-parameters" />
+    </option>
+  </component>
+</project>
